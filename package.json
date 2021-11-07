@@ -1,0 +1,37 @@
+{
+  "name": "business_shower_page",
+  "version": "0.0.1",
+  "description": "landing page of business shower ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GermanGarzonFET/business_shower_page.git"
+  },
+  "author": "German Garzon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GermanGarzonFET/business_shower_page/issues"
+  },
+  "homepage": "https://github.com/GermanGarzonFET/business_shower_page#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "connect-flash": "^0.1.1",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.3.4",
+    "express-mysql-session": "^2.1.7",
+    "express-session": "^1.17.2",
+    "morgan": "^1.10.0",
+    "mysql": "^2.18.1",
+    "passport": "^0.5.0",
+    "passport-local": "^1.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.14"
+  }
+}
